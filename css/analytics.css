@@ -1,0 +1,53 @@
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: black;
+    text-decoration: none;
+}
+
+.aceptar button {
+    background-color: green;
+    border-radius: 12px;
+    border-color: black;
+    color: black;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 2px;
+}
+
+.rechazar button {
+    background-color: red;
+    border-radius: 12px;
+    border-color: black;
+    color: black;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 2px;
+}
+
+.vl {
+    border-left: 6px solid black;
+    height: 500px;
+}
