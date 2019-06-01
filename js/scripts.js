@@ -14,8 +14,8 @@ $(document).ready(function () {
         output += '</div>';
         output += '<div class="row m-2">';
           output += '<div class="col-sm-10 my-auto">';
-            output += '<a href="#" class="d-inline-block"><img src="';
-            output += val.picture2 + '" class="rounded-circle mx-auto" align="center" height="12%" width = "12%">' + val.name + '</a>';
+            output += '<a href="perfil.html" class="d-inline-block"><img src="';
+            output += val.picture2 + '" class="rounded-circle mx-2" align="center" height="20%" width = "20%"><h7>' + val.name + '</h7></a>';
             //output += '</div>';
             //output += '<div class="col-sm-4 my-auto">';
             //output += '<h4>' + val.name + '</h4>';
