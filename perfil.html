@@ -36,6 +36,21 @@
         padding-left: 5vw;
       }
 
+      @media only screen and (max-width: 600px) {
+        #imagenes img{
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+      }
+      #imagenes > div{
+        width: 100%;
+        margin: 1vw;
+      }
+      #imagenes{
+        padding-left: 0px;
+      }
+      }
+
     </style>
 
 </head>
@@ -94,11 +109,10 @@
                     </div>
                     <br>
                     <div class="d-flex flex-wrap align-content-center" id="imagenes">
-                    <div class=""><img class="perfil" src="img/img1.png"
+                    <div class=""><img class="perfil" src="http://i.imgur.com/DbxzyhZ.jpg"
                                                alt="Imagen_1">
                         <br><button class="btn rounded-bottom w-100 p-0 m-0"><a href="analytics.html">Analytics</a></button>
                     </div>
-                    <br>
                     <div class=""><img class="perfil" src="img/img2.png"
                                                alt="Imagen_2">
                         <br><button class="btn rounded-bottom w-100 p-0 m-0"><a href="analytics.html">Analytics</a></button>
