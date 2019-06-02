@@ -322,6 +322,11 @@ $(document).ready(function(){
 </script>
 
 
+
+
+
+	</div>
+	<div class="fixed-bottom w-25">
 <div class="float-left d-md-block d-none">
       <button id="addfile" type="button" class="btn btn-secondary">
          +
@@ -332,7 +337,4 @@ $(document).ready(function(){
          + 
       </button>
     </div>
-
-
-
-	</div>
+</div>

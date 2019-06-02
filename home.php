@@ -28,6 +28,7 @@
 
 <body>
 
+
 <?php include 'chat.php'?>
   <span class="position-absolute trigger">
     <!-- hidden trigger to apply 'stuck' styles --></span>
