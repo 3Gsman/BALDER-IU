@@ -25,7 +25,8 @@ $(document).ready(function () {
             output += '</div>';
             output += '<div class="m-2 col-sm-12">';
             output += '<h2>' + val.title + '</h2>';
-            output += val.description;
+            output += '<button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#descol'+id+'" aria-expanded="false">Show more</button>';
+            output += '<div class="navbar-collapse collapse" id="descol'+id+'">'+val.description+'</div>';
             output += '</div>';
             output += '</div>';
             output += '</div>';
