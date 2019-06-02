@@ -57,6 +57,30 @@
 			min-width: 300px;
 			min-height: 00px;
 		}
+
+		#addfile {
+
+			font-size: 30px;	
+		  width: 55px;
+		  height: 55px;
+		  line-height: 45px;
+		  text-align: center;
+		  padding: 0;
+		  border-radius: 50%;
+		  margin-bottom: 10px;
+		  margin-left: 50px;
+		}
+
+		#addfileMobile {
+
+			font-size: 20px;	
+		  width: 115px;
+		  height: 45px;
+		  line-height: 45px;
+		  text-align: center;
+		  padding: 0;
+		}
+
 	</style>
 	<div class="fixed-bottom w-100">
 
@@ -296,4 +320,19 @@ $(document).ready(function(){
   
 });
 </script>
+
+
+<div class="float-left d-md-block d-none">
+      <button id="addfile" type="button" class="btn btn-secondary">
+         +
+      </button>
+    </div>
+    <div class="float-left d-md-none d-block">
+      <button id="addfileMobile" type="button" class="btn btn-secondary">
+         + 
+      </button>
+    </div>
+
+
+
 	</div>
