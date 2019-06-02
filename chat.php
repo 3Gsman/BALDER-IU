@@ -1,7 +1,12 @@
 <!-- Font Awesome -->
 	<style>
+		.dropdown-submenu:nth-child(1) {
+		  position: relative;
+		  border-radius: .25rem .25rem .25rem 0;
+		}
 		.dropdown-submenu {
 		  position: relative;
+		  border-radius: 0 .25rem .25rem 0;
 		}
 		.dropdown-submenu span {
 		  color: black;
@@ -61,9 +66,9 @@
 			  <button id="chatDropDownButton" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 			    Chat
 			  </button>
-			  <div id="chatDropDown" class=" dropdown-menu p-0" style="">
+			  <div id="chatDropDown" class="rounded dropdown-menu p-0" style="">
 			    <!-- Dropdown menu links -->
-			    <div class="row">
+			    <div class="row rounded">
 			    	<div class="col pr-0 border-right">
 			    		<div class="rounded-top" id="chatShow">
 			        	<div class="pl-2 pt-1 mb-1 border-bottom rounded-bottom" style="z-index: 5; width: 100%; ">
@@ -91,7 +96,7 @@
 			        
 			        </div>
 			    	</div>
-			    	<div class="col contacts rounded-top pl-0">
+			    	<div class="col contacts rounded pl-0">
 			    		<div class="dropdown-submenu p-2" id="german">
 			        <a class="contantA test w-100 h-100" tabindex="-1" href="#"> <span class="ml-1 d-block font-weight-bold text-decoration-none text-truncate"><img class="img-fluid rounded-circle" src="https://s3.amazonaws.com/blackboard.cloud.dev/sites/cb92116f-70ce-4a77-8f15-d18889e202e0/profiles/57daa827e4b06c5ca2626a18/98704483-a139-40be-80db-34697a9c8c06.jpg" style=" height: 40px;"> German Garcia</span> <span class="caret"></span></a>
 			        <ul class="dropdown-menu d-none">
@@ -273,7 +278,8 @@ $(document).ready(function(){
 		    var keycode = (event.keyCode ? event.keyCode : event.which);
 		    if(keycode == '13'){
 		        $('#chatShow .chat').html($('#chatShow .chat').html()+'<div   class=" messageRight float-right mr-2 rounded text-wrap my-2" style="" >'+$('#chatShow .newMessage')[0].value+'</div>');
-		        setTimeout(function(){$('#chatShow .chat').html($('#chatShow .chat').html()+'<div   class=" messageLeft float-left ml-2 rounded text-wrap my-2" style="" > RESPUESTA </div>');},1000);
+		        setTimeout(function(){$('#chatShow .chat').html($('#chatShow .chat').html()+'<div   class=" messageLeft float-left ml-2 rounded text-wrap my-2" style="" > RESPUESTA </div>');
+		    		$("#chatShow .chat").scrollTop($("#chatShow .chat")[0].scrollHeight);},1000);
 		        $('#chatShow .newMessage')[0].value='';
 		        $("#chatShow .chat").scrollTop($("#chatShow .chat")[0].scrollHeight);
 
