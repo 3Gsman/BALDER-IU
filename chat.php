@@ -273,7 +273,7 @@ $(document).ready(function(){
 		    var keycode = (event.keyCode ? event.keyCode : event.which);
 		    if(keycode == '13'){
 		        $('#chatShow .chat').html($('#chatShow .chat').html()+'<div   class=" messageRight float-right mr-2 rounded text-wrap my-2" style="" >'+$('#chatShow .newMessage')[0].value+'</div>');
-		        $('#chatShow .chat').html($('#chatShow .chat').html()+'<div   class=" messageLeft float-left ml-2 rounded text-wrap my-2" style="" > RESPUESTA </div>');
+		        setTimeout(function(){$('#chatShow .chat').html($('#chatShow .chat').html()+'<div   class=" messageLeft float-left ml-2 rounded text-wrap my-2" style="" > RESPUESTA </div>');},1000);
 		        $('#chatShow .newMessage')[0].value='';
 		        $("#chatShow .chat").scrollTop($("#chatShow .chat")[0].scrollHeight);
 
