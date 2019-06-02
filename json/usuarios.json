@@ -1,32 +1,36 @@
 {
-    "usuarios": [
-        {
-            "picture1": "img/img1.png",
-            "picture2": "img/profile1.jpg",
-            "name": "German Garcia",
-            "title": "Palmeras",
-            "description": "Lorem ipsum dolor amet brunch man braid aesthetic slow-carb. Twee freegan ugh, fanny pack iPhone crucifix affogato humblebrag. Raclette try-hard trust fund microdosing you probably haven't heard of them tacos. "
-        },
-        {
-            "picture1": "img/img2.png",
-            "picture2": "img/profile2.jpg",
-            "name": "Adrian Villanueva",
-            "title": "Perrete",
-            "description": "Lorem ipsum dolor amet four dollar toast microdosing kinfolk cred mustache. Selvage unicorn synth tousled aesthetic cred, post-ironic seitan succulents ugh. "
-        },
-        {
-            "picture1": "img/img3.png",
-            "picture2": "img/profile3.jpg",
-            "name": "Luis Ferrer",
-            "title": "Cafe",
-            "description": "Lorem ipsum dolor amet meggings actually blue bottle +1. Hell of kickstarter letterpress woke vice gastropub occupy. Hashtag green juice schlitz, pour-over tumblr etsy listicle trust fund deep v af."
-        },
-        {
-            "picture1": "img/img4.png",
-            "picture2": "img/profile2.jpg",
-            "name": "Adrian Villanueva",
-            "title": "Delfin",
-            "description": "Lorem ipsum dolor amet synth selvage tumeric offal, polaroid thundercats pok pok. Bushwick YOLO truffaut mlkshk jean shorts enamel pin brooklyn. Aesthetic fixie 3 wolf moon beard letterpress, keffiyeh cornhole bitters bushwick pickled."
-        }
-    ]
+  "usuarios": [
+    {
+      "picture1": "img/img1.png",
+      "picture2": "img/profile1.jpg",
+      "name": "German Garcia",
+      "title": "Palmeras",
+      "description": "Lorem ipsum dolor amet brunch man braid aesthetic slow-carb. Twee freegan ugh, fanny pack iPhone crucifix affogato humblebrag. Raclette try-hard trust fund microdosing you probably haven't heard of them tacos. ",
+      "profile": "perfil.html"
+    },
+    {
+      "picture1": "img/img2.png",
+      "picture2": "img/profile2.jpg",
+      "name": "Adrian Villanueva",
+      "title": "Perrete",
+      "description": "Lorem ipsum dolor amet four dollar toast microdosing kinfolk cred mustache. Selvage unicorn synth tousled aesthetic cred, post-ironic seitan succulents ugh. ",
+      "profile": "perfil2.html"
+    },
+    {
+      "picture1": "img/img3.png",
+      "picture2": "img/profile3.jpg",
+      "name": "Luis Ferrer",
+      "title": "Cafe",
+      "description": "Lorem ipsum dolor amet meggings actually blue bottle +1. Hell of kickstarter letterpress woke vice gastropub occupy. Hashtag green juice schlitz, pour-over tumblr etsy listicle trust fund deep v af.",
+      "profile": "perfil3.html"
+    },
+    {
+      "picture1": "img/img4.png",
+      "picture2": "img/profile2.jpg",
+      "name": "Adrian Villanueva",
+      "title": "Delfin",
+      "description": "Lorem ipsum dolor amet synth selvage tumeric offal, polaroid thundercats pok pok. Bushwick YOLO truffaut mlkshk jean shorts enamel pin brooklyn. Aesthetic fixie 3 wolf moon beard letterpress, keffiyeh cornhole bitters bushwick pickled.",
+      "profile": "perfil2.html"
+    }
+  ]
 }
